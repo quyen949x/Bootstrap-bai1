@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul.menu {
+            margin: 20px auto;
+        }
+
+        ul li {
+            list-style: none;
+            padding: 5px;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: #2aabd2;
+            float: left;
+            border-right: 1px solid #fff;
+        }
+
+        ul li:last-child {
+            border-right: none;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        ul .dropdown li {
+            border-right: none;
+            border-top: 1px solid #fff;
+        }
+
+        ul .dropdown {
+            position: relative;
+        }
+
+        ul .dropdown ul.sub-menu {
+            position: absolute;
+            left: 0;
+            top: 40px;
+            /*display: none;*/
+        }
+        ul.menu li:hover .sub-menu{
+            display: block;
+        }
+        ul.menu li:hover {
+            background: red;
+            color: white;
+        }
+        ul.menu li:hover a{
+            color: #fff;
+        }
+        .dropdown-2{
+            position: relative;
+        }
+        .sub-menu-2{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <ul class="menu">
+        <li class="active">
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li class="dropdown">
+            <a href="#">Shop</a>
+            <ul class="sub-menu">
+                <li><a href="#">tieu de</a></li>
+                <li class="dropdown-2">
+                    <a href="#">tieu de</a>
+                    <ul class="sub-menu-2">
+                        <li><a href="">huhu</a></li>
+                        <li><a href="">huhu</a></li>
+                        <li><a href="">huhu</a></li>
+                        <li><a href="">huhu</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">tieu de</a></li>
+                <li><a href="#">tieu de</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Blog</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
