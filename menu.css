@@ -1,0 +1,34 @@
+*{ margin: 0; padding: 0;}
+ul li{
+	list-style-type: none;
+	float: left;
+	background: green;
+	border-right: 2px solid red;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	padding: auto;
+	text-align: center;
+	font-family: aria;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+li .menu1{
+	left: 0;
+	display: none;
+}
+ul li:hover .menu1{
+	display: block;
+}
+.menu1 li{
+	border-top: 2px solid red;
+	border-right: none;
+}
+.menu>ul{
+	margin-left: 50px;
+}
+.menu li:last-child{
+	border-right: none;
+}
