@@ -1,1 +1,102 @@
 *{margin: 0; padding: 0;}
+
+.footer li {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 22px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    padding-left: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container.coppy {
+    padding-bottom: 46px;
+}
+
+body {}
+
+.nenanh2 .text-center {
+    margin-top: 26px;
+}
+
+.nenanh2 h1 {
+    font-weight: 900;
+    text-shadow: 1px 1px 0 black;
+    font-size: 44px;
+    text-transform: capitalize;
+}
+
+.nenanh2 {
+    padding: 90px 0;
+    color: #ffffff;
+    background: url("images/5.jpg");
+}
+
+.nentrang1 {
+    padding: 48px 0;
+}
+
+.nenxam1 p {
+    font-size: 18px;
+    padding-top: 24px;
+}
+
+hr.ngan {
+    width: 47%;
+    background: black;
+    border-top: 2px solid #e7e7e7;
+}
+
+.nenxam1 h2 {
+    font-weight: 700;
+    padding-top: 30px;
+}
+.nentrang1 h2 {
+    font-weight: 700;
+    padding-top: 30px;
+}
+.nentrang1 p {
+    font-size: 18px;
+    padding-top: 24px;
+}
+
+
+.nenxam1 {
+    padding: 48px 0;
+    background: #f8f8f8;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.nenanh h3 {
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+.nenanh h1 {
+    font-weight: 900;
+    font-size: 59px;
+    text-shadow: 2px 1px 0 #000000c4;
+}
+
+.nenanh {
+    padding-top: 230px;
+    padding-bottom: 280px;
+    background-image: url("images/4.png");
+    color: #ffffff;
+}
+
+.nenanh hr {
+}
+
+.navbar-default {
+    margin-bottom: 0;
+}
+.footer .menu{
+    padding-left: 0;
+}
